@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Banco de Dados WEB</title>
+
+    <style type="text/css">
+        h1 {
+            font-size: 40pt;
+            color: blue;
+            text-align: center;
+        }
+
+        a {
+            background-color:blue;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        button {
+            background-color:blue;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 10px;
+        }
+
+        div  {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="./img/ufop.png" />
+
+    <h1>Banco de Dados WEB</h1>
+
+    <div>
+        <a href="welcome.html">Home</a>
+        <a href="#">Estados</a>
+        <a href="#">Cidades</a>
+        <a href="#">Produtos</a>
+        <a href="people.html">Pessoas</a>
+        <a href="#">Compras</a>
+        <a href="profile.html">Perfil</a>
+        <a href="#">Sair</a>
+    </div>
+
+    <br>
+
+    <div>
+        <form method="POST" action="people_create.html">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+            <label for="user">Usuário:</label>
+            <input type="text" name="user" id="user">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf">
+
+            <p><button>Registrar</button></p>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

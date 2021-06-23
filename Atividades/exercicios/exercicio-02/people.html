@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Banco de Dados WEB</title>
+
+    <style type="text/css">
+        h1 {
+            font-size: 40pt;
+            color: blue;
+            text-align: center;
+        }
+
+        a {
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin-right: 5px;
+        }
+
+        div {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            width:70%;
+            align-self: center;
+        }
+
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="./img/ufop.png" />
+
+    <h1>Banco de Dados WEB</h1>
+
+    <div>
+        <a href="welcome.html">Home</a>
+        <a href="#">Estados</a>
+        <a href="#">Cidades</a>
+        <a href="#">Produtos</a>
+        <a href="people.html">Pessoas</a>
+        <a href="#">Compras</a>
+        <a href="profile.html">Perfil</a>
+        <a href="#">Sair</a>
+    </div>
+
+    <br>
+
+    <div>
+        <table id = "customers">
+            <tr>
+                <th>Usuário</th>
+                <th>E-mail</th>
+                <th>CPF</th>
+            </tr>
+            <tr>
+                <td>Jõao</td>
+                <td>joao123@aluno.ufop.edu.br</td>
+                <td>111.111.111-99</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <div align="center">
+        <a href="people_create.html">Cadastrar Pessoa</a>
+    </div>
+
+
+
+
+</body>
+
+</html>
